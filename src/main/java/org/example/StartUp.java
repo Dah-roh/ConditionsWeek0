@@ -15,7 +15,9 @@ public class StartUp {
         System.out.println("LENGTH OF ARRAY : "+arrayOfWords.length);
         for (int i = 0; i < arrayOfWords.length; i++) {
             for (int j = 0; j < arrayOfWords[i].length; j++) {
-                System.out.println("Array Index: "+ i +" Array Element: "+ arrayOfWords[i][j]);
+//                System.out.println("Array Index: "+ i +" Array Element: "+ arrayOfWords[i][j]);
+                System.out.println("arrayOfWords["+i+"]["+j+"]"+" has the element = "+ arrayOfWords[i][j]);
+                System.out.println();
             }
         }
 
